@@ -3,4 +3,4 @@
 #@schema/desc "Namespace to deploy"
 namespace: app-acme-fitness
 #@schema/desc "FQDN"
-fqdn: ""
+fqdn: acme-fitness.foo.org
