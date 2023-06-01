@@ -1,10 +1,10 @@
 apiVersion: packaging.carvel.dev/v1alpha1
 kind: PackageRepository
 metadata:
-  name: demo-dependencies-package-repository
+  name: acme-fitness-package-repository
 spec:
   fetch:
     git:
-      url: https://github.com/doddatpivotal/demo-dependencies
+      url: https://github.com/doddatpivotal/acme-fitness-package-repo
       ref: origin/main
       subPath: package-repo

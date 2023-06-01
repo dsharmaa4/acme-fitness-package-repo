@@ -15,7 +15,7 @@ spec:
         namespace:
           type: string
           description: Namespace to deploy
-          default: acme-fitness
+          default: app-acme-fitness
         fqdn:
           type: string
           description: FQDN
