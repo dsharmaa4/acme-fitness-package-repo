@@ -1,0 +1,11 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: PackageMetadata
+metadata:
+  # This will be the name of our package
+  name: acme-fitness.external.demo-dependencies.learn
+spec:
+  displayName: "Acme Fitness"
+  longDescription: "Acme-fitness demo ecommerce applicaiton"
+  shortDescription: "Acme-fitness for demoing"
+  categories:
+  - demo
