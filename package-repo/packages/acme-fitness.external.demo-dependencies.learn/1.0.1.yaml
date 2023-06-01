@@ -1,12 +1,12 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: acme-fitness.external.demo-dependencies.learn.1.0.0
+  name: acme-fitness.external.demo-dependencies.learn.1.0.1
 spec:
   refName: acme-fitness.external.demo-dependencies.learn
-  version: 1.0.0
+  version: 1.0.1
   releaseNotes: |
-    Initial release of the acme-fitness package
+    Page release of the acme-fitness package, changing front-end to service type ClusterIP
   valuesSchema:
     openAPIv3:
       type: object
@@ -26,7 +26,7 @@ spec:
       - git:
           url: https://github.com/doddatpivotal/acme-fitness-package-repo
           ref: origin/main
-          subPath: packages/acme-fitness/1.0.0/bundle
+          subPath: packages/acme-fitness/1.0.1/bundle
       template:
       - ytt:
           paths:
