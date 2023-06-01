@@ -20,9 +20,6 @@ images:
     kbld.carvel.dev/id: gcr.io/vmwarecloudadvocacy/acmeshop-payment:latest
   image: gcr.io/vmwarecloudadvocacy/acmeshop-payment@sha256:2d4b798b3e0651cadb00c2568fec841f4008bfd5ac976a0c0e8553e4923ef70c
 - annotations:
-    kbld.carvel.dev/id: gcr.io/vmwarecloudadvocacy/acmeshop-pos:v0.1.0-beta
-  image: gcr.io/vmwarecloudadvocacy/acmeshop-pos@sha256:db64a472f98814956d1b8cea142a65b36bcdff049b06559d60e5b923e1e8b69e
-- annotations:
     kbld.carvel.dev/id: gcr.io/vmwarecloudadvocacy/acmeshop-user:latest
   image: gcr.io/vmwarecloudadvocacy/acmeshop-user@sha256:dc95f357f226415aced988a213fb5c1e45e1a6d202e38e2951a4618e14222dc2
 - annotations:
