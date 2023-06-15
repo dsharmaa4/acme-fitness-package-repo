@@ -9,7 +9,7 @@ spec:
   refName: acme-fitness.external.demo-dependencies.learn
   version: #@ data.values.version
   releaseNotes: |
-    Page release of the acme-fitness package, changing front-end to service type ClusterIP
+    Page release of the acme-fitness package, changing products to include AI capabilities.
   valuesSchema:
     openAPIv3: #@ yaml.decode(data.values.openapi)["components"]["schemas"]["dataValues"]
   template:
