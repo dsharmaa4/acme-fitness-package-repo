@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: acme-fitness-package-repo
+  description: acme-fitness-package-repo
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=acme-fitness-package-repo'
+  links:
+    - url: https://docs.konghq.com/gateway/latest/kong-enterprise/dev-portal/
+      title: Kong Dev
+      icon: dashboard  
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
