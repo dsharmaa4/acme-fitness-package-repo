@@ -16,7 +16,7 @@ spec:
     spec:
       fetch:
       - git:
-          url: https://github.com/doddatpivotal/acme-fitness-package-repo
+          url: https://github.com/dsharmaa4/acme-fitness-package-repo
           ref: origin/main
           subPath: #@ "packages/acme-fitness/" + data.values.version + "/bundle"
       template:
